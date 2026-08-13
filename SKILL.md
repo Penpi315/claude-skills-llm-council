@@ -274,6 +274,12 @@ Only save a transcript if the user asks for it or the question is significant en
 
 ---
 
+## reference
+
+See `references/example-session.md` for a full worked example — a real question run through all 5 advisors to a chairman's verdict. Read it if you need a concrete model of what "good" looks like before running your first council session.
+
+---
+
 ## important notes
 
 - **Always spawn all 5 advisors in parallel.** Sequential spawning wastes time and lets earlier responses bleed into later ones.
@@ -281,3 +287,4 @@ Only save a transcript if the user asks for it or the question is significant en
 - **The chairman can disagree with the majority.** If 4 out of 5 advisors say "do it" but the 1 dissenter ranks highest on accuracy/insight, the chairman should side with the dissenter and explain why.
 - **The Recommendation + Next Step is capped at 250 words.** This is deliberate — the analysis sections can be long, but the actual call has to be sharp enough to act on immediately.
 - **Don't council trivial questions.** If the user asks something with one right answer, just answer it.
+- **The visual report matters.** Most users will scan the report, not read the full transcript. Make the HTML output clean and scannable.
